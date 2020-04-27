@@ -1,0 +1,47 @@
+/****** MoviePage ******/
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.movie-wrapper {
+  display: flex;
+}
+
+.movie-content {
+  padding: 50px;
+}
+
+.movie-content .stars {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.movie-wrapper .description {
+  margin-top: 60px;
+}
+
+.home-btn{
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 100px;
+  transition: ease-in-out 0.3s;
+}
+
+.home-btn:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
