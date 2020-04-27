@@ -17,7 +17,7 @@ const MoviePage = (props) => {
               <Link type='button' className='home-btn' to='/'>Back to homepage</Link>
             </div>
           </div>
-        ) 
+        )
       )}
     </div>
   )
